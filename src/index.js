@@ -1,13 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// My code
+import MyForm from "./myDoc/MyForm";
+import MyFormMul from "./myDoc/MyFormMul";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <MyForm />
+    <MyFormMul />
   </React.StrictMode>
 );
 

@@ -1,0 +1,18 @@
+form{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 2px rgba(100, 90, 200, 1);
+    background-color: #f9f9f9;
+    
+}
+*{
+    margin: 1vw;
+    padding: 1vw;
+    box-sizing: border-box;
+}
