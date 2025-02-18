@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react";
 
-function MyEffect() {
+function MyEffect(props) {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     setTimeout(() => {
       setCount((count) => count + 1); // setCount( count + 1);
     }, 1000);
-  });
+  },[]);
 
   return <h1>I have rendered {count} times!</h1>;
 }
