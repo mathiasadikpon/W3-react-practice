@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 // import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import useFetch from "./myDoc/useFetch";
 
 // My code
 import MyForm from "./myDoc/MyForm";
@@ -15,6 +16,7 @@ root.render(
     <MyForm />
     <MyFormMul />
     <MyEffect/>
+    <useFetch/>
   </React.StrictMode>
 );
 
