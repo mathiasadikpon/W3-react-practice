@@ -9,6 +9,7 @@ import Home from "./myDoc/Home";
 import MyForm from "./myDoc/MyForm";
 import MyFormMul from "./myDoc/MyFormMul";
 import MyEffect from "./myDoc/MyEffect";
+import RegistrationPage from "./pages/RegistrationPage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,6 +18,7 @@ root.render(
     <MyFormMul />
     <MyEffect />
     <Home />
+    <RegistrationPage />
   </React.StrictMode>
 );
 
