@@ -3,7 +3,7 @@ import RegistrationForm from "../myDoc/RegistrationForm";
 
 const RegistrationPage = () => {
     return <Container>
-        <div className="">Register your account</div>
+        <h2 style={{color:"blue"}}>Register your account</h2>
         <RegistrationForm />
     </Container>
 };
